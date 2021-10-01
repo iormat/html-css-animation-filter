@@ -39,3 +39,24 @@
     transform: scale(0.4);
 }
 
+/* images css effects rules */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.8) sepia(.5);
+    transition: 2s;
+}
+
+.ex-8-img:hover,.ex-9-img:hover {
+    border-radius: 20px;
+    filter: saturate(.4) sepia(.5);
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    transform: scale(1.5);
+}
+
+/* i css effects rules */
