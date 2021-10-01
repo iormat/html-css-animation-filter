@@ -60,3 +60,31 @@
 }
 
 /* i css effects rules */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: uncomplete-spin 2s linear;
+}
+@keyframes uncomplete-spin {
+    0% {
+        transform: rotate(0);
+    }
+    80% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-12-icon:hover {
+    animation: ;
+}
+
