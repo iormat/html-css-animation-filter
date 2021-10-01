@@ -1,0 +1,41 @@
+/* general css effects rules */
+.well > div, .well img, .well i {
+    cursor: pointer;
+}
+
+/* square css effects */
+.ex-1-square:hover {
+    background-color: red;
+    transition: 2s;
+}
+
+.ex-2-square {
+    transition: 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+    transition: 3s;
+}
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(1.8);
+}
+
+.ex-5-square:active {
+    transform: scale(0.4);
+}
+
